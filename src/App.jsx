@@ -31,8 +31,9 @@ const ScrollToTop = () => {
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/College-Club-Event-Management-Website">
       <AuthProvider>
+
 
         <ToastProvider>
           <ScrollToTop />
