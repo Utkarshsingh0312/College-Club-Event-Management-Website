@@ -58,9 +58,9 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="/#about" className="hover:text-white transition-colors">
+                <Link to="/#about" className="hover:text-white transition-colors">
                   About ClubSphere
-                </a>
+                </Link>
               </li>
               <li>
                 <Link

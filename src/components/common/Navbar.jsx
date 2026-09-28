@@ -83,7 +83,7 @@ export const Navbar = () => {
                 return (
                   <a
                     key={link.name}
-                    href="/#about"
+                    href="#about"
                     onClick={handleAboutClick}
                     className="px-3 py-1.5 text-xs sm:text-sm font-semibold rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100/70 transition-colors duration-150"
                   >
@@ -165,7 +165,7 @@ export const Navbar = () => {
                 return (
                   <a
                     key={link.name}
-                    href="/#about"
+                    href="#about"
                     onClick={(e) => {
                       handleAboutClick(e);
                       setIsOpen(false);
