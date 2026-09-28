@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link, useOutletContext } from 'react-router-dom';
-import { ArrowLeft, Save, Plus, AlertCircle, Sparkles, Image as ImageIcon } from 'lucide-react';
+import { ArrowLeft, Save, Plus } from 'lucide-react';
 import { getEventById, addEvent, updateEvent } from '../utils/storage';
 import { AdminHeader } from '../components/admin/AdminHeader';
 import { Button } from '../components/common/Button';

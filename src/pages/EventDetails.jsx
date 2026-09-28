@@ -4,18 +4,13 @@ import {
   Calendar,
   Clock,
   MapPin,
-  Users,
-  Award,
   ArrowLeft,
   Share2,
   CheckCircle2,
   AlertCircle,
   Building,
-  CalendarDays,
-  ShieldCheck,
-  Sparkles,
 } from 'lucide-react';
-import { getEventById, getEvents } from '../utils/storage';
+import { getEventById } from '../utils/storage';
 import { Button } from '../components/common/Button';
 import { RegistrationModal } from '../components/events/RegistrationForm';
 import { useToast } from '../context/ToastContext';

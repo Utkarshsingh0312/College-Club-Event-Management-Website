@@ -115,18 +115,24 @@ ClubSphere uses browser `localStorage` as its local data engine:
 
 ---
 
-## 🧪 Testing
+### Testing
 
-An automated test suite is provided to verify all business logic, capacity math, registration pass ID formatting, duplicate registration prevention, and event lifecycle:
+Run the automated test suite:
 
 ```bash
-node ../../brain/bc3099b1-78db-4d0d-b716-f5b33b309377/scratch/test_logic.js
+npm test
 ```
 
-Build verification:
-```bash
-npm run build
-```
+---
+
+## 🚀 Deployment
+
+ClubSphere is configured for fast edge deployment on **Vercel**:
+
+- **Framework**: Vite
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+- **Routing**: `vercel.json` provides edge rewrites to support clean React Router Single Page Application navigation across all routes without 404s on page refresh.
 
 ---
 

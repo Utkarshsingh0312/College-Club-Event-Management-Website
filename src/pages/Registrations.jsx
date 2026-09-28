@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useOutletContext } from 'react-router-dom';
-import { Search, Filter, Download, Users, RefreshCw } from 'lucide-react';
+import { Search, Download } from 'lucide-react';
 import { getRegistrations, getEvents } from '../utils/storage';
 import { RegistrationTable } from '../components/admin/RegistrationTable';
 import { AdminHeader } from '../components/admin/AdminHeader';

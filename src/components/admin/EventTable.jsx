@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Eye, Edit2, Trash2, Calendar, MapPin, Users, ExternalLink } from 'lucide-react';
+import { Eye, Edit2, Trash2 } from 'lucide-react';
 
 const statusBadgeStyles = {
   Upcoming: 'bg-emerald-50 text-emerald-700 border-emerald-200',

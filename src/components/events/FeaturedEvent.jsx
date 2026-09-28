@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, Clock, MapPin, Users, Flame, ArrowRight, ShieldCheck, CheckCircle2 } from 'lucide-react';
+import { Calendar, Clock, MapPin, Users, Flame, ArrowRight } from 'lucide-react';
 import { Button } from '../common/Button';
 
 export const FeaturedEvent = ({ event, onRegisterClick }) => {

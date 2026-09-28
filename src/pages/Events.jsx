@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { ArrowUpDown, SlidersHorizontal, Sparkles } from 'lucide-react';
+import { ArrowUpDown } from 'lucide-react';
 import { getEvents } from '../utils/storage';
 import { EventGrid } from '../components/events/EventGrid';
 import { SearchBar } from '../components/events/SearchBar';

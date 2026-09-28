@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, Clock, MapPin, Users, ArrowRight, AlertCircle, CheckCircle } from 'lucide-react';
+import { Calendar, Clock, MapPin, Users, AlertCircle, CheckCircle } from 'lucide-react';
 import { Button } from '../common/Button';
 
 // Category color mappings for tasteful visual hierarchy

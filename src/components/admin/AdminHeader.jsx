@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, ShieldCheck } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 export const AdminHeader = ({ title, subtitle, onOpenSidebar, actions }) => {
   return (

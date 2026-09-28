@@ -4,11 +4,9 @@ import {
   LayoutDashboard,
   Calendar,
   Users,
-  Settings,
   LogOut,
   ExternalLink,
   X,
-  Sparkles,
   RefreshCw,
 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';

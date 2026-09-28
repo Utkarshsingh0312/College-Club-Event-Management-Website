@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Heart, Sparkles, MapPin, Mail, ArrowUpRight } from 'lucide-react';
+import { ShieldCheck, MapPin, Mail } from 'lucide-react';
 
 export const Footer = () => {
   return (

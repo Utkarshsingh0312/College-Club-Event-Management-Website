@@ -3,21 +3,15 @@ import { Link } from 'react-router-dom';
 import {
   ArrowRight,
   Sparkles,
-  Calendar,
-  Users,
   Compass,
   CheckCircle2,
   Shield,
-  Layers,
   Flame,
-  ArrowUpRight,
-  Radio,
 } from 'lucide-react';
 import { getEvents } from '../utils/storage';
 import { EventCard } from '../components/events/EventCard';
 import { FeaturedEvent } from '../components/events/FeaturedEvent';
 import { RegistrationModal } from '../components/events/RegistrationForm';
-import { Button } from '../components/common/Button';
 
 export const Home = () => {
   const [events, setEvents] = useState([]);

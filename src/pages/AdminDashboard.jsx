@@ -7,13 +7,10 @@ import {
   Activity,
   ArrowRight,
   Plus,
-  Eye,
-  TrendingUp,
 } from 'lucide-react';
 import { getEvents, getRegistrations } from '../utils/storage';
 import { StatCard } from '../components/admin/StatCard';
 import { AdminHeader } from '../components/admin/AdminHeader';
-import { Button } from '../components/common/Button';
 
 export const AdminDashboard = () => {
   const { openSidebar } = useOutletContext();

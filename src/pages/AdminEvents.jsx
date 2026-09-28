@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Link, useOutletContext } from 'react-router-dom';
-import { Plus, Search, Filter, Calendar, Sparkles } from 'lucide-react';
+import { Plus, Search } from 'lucide-react';
 import { getEvents, deleteEvent } from '../utils/storage';
 import { EventTable } from '../components/admin/EventTable';
 import { AdminHeader } from '../components/admin/AdminHeader';
 import { ConfirmDialog } from '../components/common/ConfirmDialog';
 import { useToast } from '../context/ToastContext';
-import { Button } from '../components/common/Button';
 
 export const AdminEvents = () => {
   const { openSidebar } = useOutletContext();

@@ -2,13 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   CheckCircle2,
-  AlertCircle,
   Copy,
-  Calendar,
-  MapPin,
-  Clock,
   Ticket,
-  ArrowRight,
   ShieldAlert,
 } from 'lucide-react';
 import { Modal } from '../common/Modal';

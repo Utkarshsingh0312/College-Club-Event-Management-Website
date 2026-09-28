@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Eye, Ticket, Calendar, MapPin, Mail, Phone, School, GraduationCap, Clock } from 'lucide-react';
+import { Eye, Ticket, Calendar, Mail, Phone, School, GraduationCap } from 'lucide-react';
 import { Modal } from '../common/Modal';
 import { Button } from '../common/Button';
 import { getEventById } from '../../utils/storage';
