@@ -31,7 +31,7 @@ const ScrollToTop = () => {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/College-Club-Event-Management-Website">
+    <BrowserRouter>
       <AuthProvider>
 
 
